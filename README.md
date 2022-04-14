@@ -19,7 +19,7 @@
 ## :pushpin: commit 규칙
 - commit 메시지 : [플랫폼] 문제번호(이름)/난이도/성공 여부(O,X)
 ```
-git commit -m "[BOJ] 10817(세 수)/B3/O
+git commit -m "[BOJ] 10817(세 수)/B3/O"
 ```
 
 ## :pushpin: PR 규칙
