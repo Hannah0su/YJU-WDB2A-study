@@ -25,7 +25,7 @@ public class boj_2869 {
 		br.close();
 		bw.write(day+"\n");
 		bw.flush();
-        bw.close();
+        	bw.close();
 		
 	}
 
