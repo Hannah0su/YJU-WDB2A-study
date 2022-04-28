@@ -27,6 +27,7 @@ public class boj_2869 {
 		bw.flush();
         	bw.close();
 		
+		
 	}
 
 }
