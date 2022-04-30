@@ -24,7 +24,7 @@ public class BOJ_2309 {
 		}
 		Arrays.sort(height); //난쟁이 키 오름차순 정렬
 		
-		//2명의 난쟁이 키의 모든 경우의 수를 구하는 반복문
+		// 2명의 난쟁이 키의 모든 경우의 수를 구하는 반복문
 		for(int j=0; j<height.length-1; j++) {
 			for(int k=j+1; k<height.length; k++) {
 				//9명 키의 합에서 2명의 키를 뺐을 때 100이 나오면 범인!

@@ -26,7 +26,7 @@ public class BOJ_2798 {
 			for(int j=i+1; j<N; j++) {
 				for(int k=j+1; k<N; k++) {
 					sum = card[i] + card[j] + card[k];
-					//합이 M보다 작고 max보다 크면 합을 max에 저장
+					// 합이 M보다 작고 max보다 크면 합을 max에 저장
 					if(sum > max && sum <= M) {
 						max = sum;
 					}
