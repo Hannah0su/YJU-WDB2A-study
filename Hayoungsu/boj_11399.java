@@ -23,7 +23,7 @@ public class boj_11399 {
 		Arrays.sort(arr);
  
  
-		int cnt = 0;	// 누산한 값을 담을 변수
+		int cnt = 0;	// 누산한 값을 담을 변수 
 		int result = 0;	// 필요한 시간의 합의 최솟값
 				
 		for(int i = 0; i < arr.length; i++) {	
