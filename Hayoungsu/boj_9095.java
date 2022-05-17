@@ -22,14 +22,14 @@ public class boj_9095 {
 			return;
 		}
 		if(n-1>=0) {
-            cal(n-1);
-        }
+			cal(n-1);
+		}
 		if(n-2>=0) {
-            cal(n-2);
-        }
-		if(n-3>=0) {
-            cal(n-3);
-        }
+			cal(n-2);
+		}
+		if(n-3>=0) 
+			cal(n-3);
+		}
 	}
 
 }
