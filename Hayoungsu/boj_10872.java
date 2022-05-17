@@ -15,8 +15,9 @@ public class boj_10872 {
 	}
 	
 	public static int factorial(int n) {//재귀로 반복
-		if(n <= 1)
-            return 1;
+		if(n <= 1) {
+			return 1;
+		}
 		return n * factorial(n - 1);
 	}
  
