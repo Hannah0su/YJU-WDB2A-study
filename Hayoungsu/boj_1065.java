@@ -20,11 +20,17 @@ public class boj_1065 {
 		
 		else {
 			cnt = 99;
+
 			for(int i = 100; i<=n; i++) {
+
 				int a = i/100;      //100의 자릿수 a
+
 				int b = (i/10)%10;  //10의 자릿수 b
+				
 				int c = i%10;       //1의 자릿수 c
-				if (a-b == b-c)     //공차가 같으면 한수, +1
+				
+				if (a-b == b-c)
+				     //공차가 같으면 한수, +1
 					cnt++;
 			}
 
