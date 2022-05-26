@@ -14,7 +14,7 @@ public class boj_1065 {
 		
 		int cnt = n;
 		
-		if (n<=99) {            //100이하의 수는 그 자신이 값임
+		if (n<=99) {            	//100이하의 수는 그 자신이 값임
 			bw.write(cnt+"\n");
 			}
 		
