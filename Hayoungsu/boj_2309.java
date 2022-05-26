@@ -16,7 +16,8 @@ public class boj_2309 {
 		for (int i = 0; i < 9; i++) {
 			arr[i] = Integer.parseInt(br.readLine()); //[0] 첫번째난쟁이키 [1]두번째로 입력받은 난쟁이키 .[2] ..[3]..
 			sum += arr[i]; // 모든 난쟁이들의 키를 더한다
-		}//sum에는 9명(진짜7명 + 가짜 2명)
+		}
+		//sum에는 9명(진짜7명 + 가짜 2명)
 		
 		
 		fake = sum - 100; // 가짜 2명의 키를 더한 값 = 9명의 키 합계 - 100
