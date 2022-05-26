@@ -29,7 +29,7 @@ date: "2022-05-26"
 진짜 난쟁이들의 키를 모두 더하면 100이라는 수가 나오게된다.  
 그리고 9명의 키는 서로 다른 수이며, 이들 중 가짜 2명만 찾아내면된다.  
 
-$_{9}C_{2}=36$
+<img src="https://latex.codecogs.com/svg.image?\large&space;_9C_2&space;=&space;36" title="https://latex.codecogs.com/svg.image?\large _9C_2 = 36" />
 
 ```java
 import java.io.BufferedReader;
