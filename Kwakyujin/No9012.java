@@ -1,0 +1,45 @@
+package baekjoon;
+
+import java.util.*;
+import java.io.*;
+
+public class No9012 {
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		int N, L, size;
+		String str;
+		char ch;
+		
+		N = Integer.parseInt(br.readLine());
+		Stack<Character> stack = new Stack<>();
+
+		for (int i = 0; i < N; i++) {
+			str = br.readLine();
+			L = str.length();
+
+			for (int j = 0; j < L; j++) {
+				ch = str.charAt(j);
+				if (ch == '(') {
+					stack.push(ch);
+				} else {
+					size = stack.size();
+					if (size == 0) {
+						stack.push(ch);
+						break;
+					} else {
+						stack.pop();
+					}
+				}
+			}
+
+			if (stack.isEmpty()) {
+				System.out.println("YES");
+			} else {
+				System.out.println("NO");
+			}
+
+			stack.clear();
+		}
+	} 
+} 
