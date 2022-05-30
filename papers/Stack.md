@@ -12,7 +12,7 @@ date: "2022-05-30"
 
 스택의 기본 원칙은 `LIFO : Last in First out (후입선출)` 입니다. 이는 말 그대로 **나중에 들어온 것이 먼저 나가는 방식**을 의미합니다.  
 `프링글스 통`으로 이해하시면 쉽습니다.  
-![프링글스](https://user-images.githubusercontent.com/103083251/171011882-9b3c5cee-9859-48d6-8a73-c7a6a569474d.png)  
+<img width="20%" height="20%" alt="프링글스" src="https://user-images.githubusercontent.com/103083251/171011882-9b3c5cee-9859-48d6-8a73-c7a6a569474d.png">  
 `(push)가장 나중에 들어간 감자칩부터 (pop)집어 먹을 수 있습니다.`  
 이를 조금 바꿔서 얘기하자면, 스택에서의 접근은 언제나 목록의 끝에서만 가능합니다.
 
@@ -22,7 +22,7 @@ date: "2022-05-30"
 
 이러한 구조는 보통 `뒤로 가기`, `실행 취소(undo)`, `컴퓨터의 Stack Memory` 에서 쓰입니다. 그 이유는 `스택`이 가진 장점에 있습니다. 스택은 `후입선출` 방식인데, 이는 **바로 이전의 데이터를 빠르게 갖고올 수 있다**는 장점을 가지고 있습니다.
 
-![스택설명2](https://user-images.githubusercontent.com/103083251/171016562-611d8b08-0fc1-4127-80e9-3c1696968012.png)  
+<img width="45%" height="45%" alt="스택설명2" src="https://user-images.githubusercontent.com/103083251/171016562-611d8b08-0fc1-4127-80e9-3c1696968012.png">  
 기본적으로 Stack 클래스는 `Object[]` 배열을 사용하여 데이터들을 관리하고 있습니다.
 
 - Bottom: **가장 밑에 있는 데이터**, 또는 그 데이터의 인덱스를 의미합니다.
@@ -36,9 +36,9 @@ date: "2022-05-30"
 - pop: 스택에서 **데이터를 삭제(추출)하는 작업**을 의미합니다. 이는 top이 가리키고 있는 자료를 삭제한 후 top값을 하나 감소시키도록 구현합니다.
 - peek: 스택에서 **top이 가리키는 데이터를 읽는 작업**을 의미합니다. top값의 변화는 없습니다.
 
-![push](https://user-images.githubusercontent.com/103083251/171018594-60eb0665-1280-4c49-bf63-2d10f348bc33.png)
-
-![pop](https://user-images.githubusercontent.com/103083251/171018774-532abbd5-184d-402c-aed3-38f0c1a75a1f.png)
+<img width="45%" height="45%" alt="push" src="https://user-images.githubusercontent.com/103083251/171018594-60eb0665-1280-4c49-bf63-2d10f348bc33.png">  
+  
+<img width="45%" height="45%" alt="pop" src="https://user-images.githubusercontent.com/103083251/171018774-532abbd5-184d-402c-aed3-38f0c1a75a1f.png">  
 
 ---
 
@@ -50,9 +50,9 @@ date: "2022-05-30"
 
 ![입출력](https://user-images.githubusercontent.com/103083251/171020984-262e8cf5-7e54-4f1c-b586-e2c270590ee5.png)
 
-![예제입출력1](https://user-images.githubusercontent.com/103083251/171021308-8314e1a5-dbea-4163-9b42-a634e2c18351.png)
+<img width="70%" height="70%" alt="예제입출력1" src="https://user-images.githubusercontent.com/103083251/171021308-8314e1a5-dbea-4163-9b42-a634e2c18351.png">  
 
-![예제입출력2](https://user-images.githubusercontent.com/103083251/171021501-c9ccf894-f652-4c28-8c7a-be3d1b28b0db.png)
+<img width="70%" height="70%" alt="예제입출력2" src="https://user-images.githubusercontent.com/103083251/171021501-c9ccf894-f652-4c28-8c7a-be3d1b28b0db.png">  
 
 ```java
 import java.util.Scanner;
