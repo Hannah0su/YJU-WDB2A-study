@@ -62,7 +62,7 @@ public class Main {
     
 		if (N == 1 ||) return 1;
     
-		return fibonacci(N - 1) + fibonacci(N - 2); // 전
+		return fibonacci(N - 1) + fibonacci(N - 2); 
     
 	} // end of fibonacci
   
